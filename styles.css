@@ -60,16 +60,17 @@ sizing and spacing as well.
 
 
 body {
-	font-family:Georgia;
-	color:#333;
-	background:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#345;
+	background:#123;
 }
 
 /************* typography ************/
 
 h1, h2, h3, h4, nav { 
-	font-family:Arial;
-	font-weight:bold; 
+	font-family:sans-serif;
+	font-weight:inherit;
+	text-transform: capitalize; 
 }
 
 h1 {
@@ -106,8 +107,8 @@ a { color: #4574b5; }
 
 /****************** Grid ******************/
 
-.primary { background:#b5b5b5; }
-.secondary { background:#efefef; }
+.primary { background:#526; }
+.secondary { background:#185; }
 
 
 /****************** Header and Main Navigation ****************/
@@ -162,7 +163,7 @@ Removes the border on the first link...
 /***************** Section Specific Rules *****************/
 
 #work {
-	background:#fff;
+	background:#170;
 	padding: 20px;
 }
 
